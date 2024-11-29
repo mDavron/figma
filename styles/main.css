@@ -10,10 +10,10 @@ html {
   margin: 0;
   padding: 0;
 }
-/* body {
+body {
   margin: 0;
   padding: 0;
-} */
+}
 .container {
   max-width: 1440px;
   width: 100%;
@@ -24,13 +24,20 @@ html {
   background-color: #4694dc;
   min-height: 500px;
 }
+.header_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
 .header_title {
   font-family: "Montserrat", sans-serif;
   font-size: 56px;
-  padding-top: 82px;
+  padding-top: 121px;
   color: #fff;
 }
 .header_text {
+  margin-top: 32px;
   width: 437px;
   font-size: 16px;
   line-height: 24px;
@@ -38,9 +45,10 @@ html {
   color: #fff;
 }
 .header_button {
-  margin-top: 28px;
+  margin-top: 50px;
   font-size: 16px;
   font-family: "Montserrat";
   padding: 18px 38px;
   color: #000;
+  border: none;
 }
