@@ -1,0 +1,3 @@
+VS HTML to CSS - extention htmldan css classlarni copy qilib
+olish uchun html tagni belgilab Alt+x tugmasi bosiladi
+va css filega utib ctrl + v bosiladi
